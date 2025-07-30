@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-const port = 8080; // default port
+const port = 80; // default port
 
 app.use(express.static(path.join(__dirname, 'frontend')));
 
